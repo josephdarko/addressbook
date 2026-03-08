@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:projects/main.dart';
 
-class ContactsPage extends StatelessWidget {
-  const ContactsPage({
+class SettingsPage extends StatelessWidget {
+  const SettingsPage({
     super.key,
   });
 

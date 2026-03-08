@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projects/contacts_page.dart';
 import 'package:projects/main.dart';
 import 'package:projects/settings_page.dart';
 
@@ -38,7 +39,7 @@ class _HomePageState extends State<HomePage> {
       body:IndexedStack( children: [
         HomePageBody(),
         ContactsPage(),
-        Container()
+        SettingsPage()
       ],index: _selectedIndex,),
 
       bottomNavigationBar: BottomNavigationBar(
